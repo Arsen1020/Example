@@ -1,0 +1,27 @@
+.button{
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 6px;
+    padding: 5px 20px;
+    background-color: green;
+}
+
+.aaaa{
+    color: red;
+    background-color: #61dafb;
+}
+
+.bbbb{
+     color: black;
+     background-color: fuchsia;
+     border-radius: 25%;
+     padding: 50px 100px;
+
+ }
+
+.cccc{
+    color: black;
+    background-color: darkred;
+    border-radius: 25%;
+    padding: 50px 100px;
+}
