@@ -29,7 +29,7 @@ const AboutUs = () => {
                     <input type="text" {...register("login")}/>
                 </label>
                 <label>
-                    <p>Password</p>
+                    <p>Password Field</p>
                     <input type="password" {...register("password", {required: "password is required", minLength: 5})}/>
                     {errors.password && <p>{errors.password.message}</p>}
                 </label><br/>
