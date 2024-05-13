@@ -25,7 +25,7 @@ const AboutUs = () => {
         <div>
             <form onSubmit={handleSubmit(onsubmitForm)}>
                 <label>
-                    <p>Login</p>
+                    <p>Log in</p>
                     <input type="text" {...register("login")}/>
                 </label>
                 <label>
